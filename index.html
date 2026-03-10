@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For You 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="active box" id="wlcm">
+        <div class="container">
+            <div class="initial">
+                <img src="images/gifs/cuddles-panda.gif" alt="cute gif" width="200">
+                <div class="text-box">
+                    <h1>Hieee,<br>My Favourite Person. 💕</h1>
+                    <p>Just a small little surprise made with love. Hope you like it and it makes you smile ✨</p>
+                </div>
+            </div>
+            <div class="btn">
+                <input type="button" value="Continue →" onclick="showSection('photo')">
+            </div>
+        </div>
+    </div>
+    <div class="section box" id="photo">
+        <div class="text-box-photo">
+            <h1>My Prittest Madam Jii...</h1>
+            <p>Drag the photos...</p>
+        </div>
+        <div class="cont-photos">
+            <div class="photo-sec">
+                <div class="cont">
+                    <img src="images/1.jpeg">
+                    <p>I could get lost in your eyes and never want to find my way back.</p>
+                </div>
+                <div class="cont">
+                    <img src="images/2.jpeg">
+                    <p>Camera loves you… and honestly, so do I.</p>
+                </div>
+                <div class="cont">
+                    <img src="images/3.jpeg">
+                    <p>You glow in a way that feels calm and magical.</p>
+                </div>
+                <div class="cont">
+                    <img src="images/4.jpeg">
+                    <p>Too cute to handle, honestly.</p>
+                </div>
+                <div class="cont">
+                    <img src="images/5.jpeg">
+                    <p>You smile once and the whole world feels lighter.</p>
+                </div>
+                <div class="cont">
+                    <img src="images/6.jpeg">
+                    <p>Love you my pretty goddess.</p>
+                </div>
+            </div>
+            <div class="btn-photo">
+                    <input type="button" value="Back ←" onclick="showSection('wlcm')">
+                    <input type="button" value="Continue →" onclick="showSection('hug')">
+            </div>
+        </div>
+    </div>
+    <div class="section box" id="hug">
+        <div class="cont-hug">
+            <h1>Sending You Virtual Hug !</h1>
+            <img src="images/gifs/i-miss-you-bear-milk-and-mocha.gif" alt="">
+            <div class="btn-hug">
+                    <input type="button" value="Back ←" onclick="showSection('photo')">
+                    <input type="button" value="Continue →" onclick="showSection('love')">
+            </div>
+        </div>
+    </div>
+    <div class="section box" id="love">
+        <div class="cont-love">
+            <h1>I Loveeee Youuu Soooo Muchhh, Merii Jaan !</h1>
+            <img src="images/gifs/cute-bears.gif" alt="">
+            <div class="btn-hug">
+                <input type="button" value="Back ←" onclick="showSection('hug')">
+            </div>
+        </div>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
